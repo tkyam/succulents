@@ -1,0 +1,136 @@
+body{
+	background-color: #ececec;
+}
+
+h3{
+	text-align:center;
+	color:#696969;
+}
+
+.container{
+	width:70%;
+	margin:auto;
+	font-family:Trebuchet MS;
+}
+
+.button-1{
+	border-radius:5px;
+	background-color:#0abab5;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button-1:hover{
+	background:#e2e2e2;
+	color:#0abab5;
+}
+
+.box-1{
+	padding:10px;
+	border-radius:10px;	
+	background-image:url('images/succulent.jpg');
+	background-repeat:no-repeat;
+}
+
+.box-1 h1{
+	font-family:Impact;
+	text-align:center;
+	color:white;
+	letter-spacing:0.08em;
+}
+
+.categories{
+	border:3px #ccc dotted;
+	padding:20px;
+	border-radius:15px;	
+}
+
+.categories h3{
+	text-align:center;	
+}
+
+.categories ul{
+	padding:0;
+	padding-left:20px; 
+	list-style:square;
+	list-style:none;
+}
+
+.categories li{
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom:dotted 1px #333;
+}
+
+.block{
+	float:left;
+	width:33.3%;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+.my-form{
+	padding:30px;
+	color:#9d9d9d;
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:98%;
+}
+
+.fix-me{
+	position:fixed;
+	top:100px;
+}
+
+.button{
+	background-color:#696969;
+	color:white;
+	border-radius:10px;
+	border:none;
+	padding: 12px 20px;
+}
+
+.button:hover{
+	background:#0abab5;
+	color:#696969;
+}
+
+.fix-1{
+	position:fixed;
+	top:80px;
+}
+
+a{
+	text-decoration:none;
+}
+
+#main-block{
+	float:left;
+	width:70%;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background-image:url('images/plants.jpg');
+	background-repeat:no-repeat;
+	padding:100px;
+	box-sizing:border-box;
+}
+
+.clr{
+	clear:both;
+}
